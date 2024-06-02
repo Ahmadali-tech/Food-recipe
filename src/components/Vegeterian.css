@@ -1,0 +1,49 @@
+.Vegeterian {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr)); 
+  gap: 30px; 
+  padding: 20px;
+}
+
+.item {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.Vegetrain-description {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.Vegetrain-ingredients {
+  font-size: 14px;
+  color: #666;
+}
+
+.Vegetrian-price {
+  font-size: 16px;
+  color: #8b8a7d;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

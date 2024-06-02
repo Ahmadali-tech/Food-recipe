@@ -1,0 +1,60 @@
+.Healthy {
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px; 
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+
+.item {
+  width: 100%; 
+  padding: 15px;
+  border-radius: 10px; 
+  text-align: center;
+  border:  2px solid black;
+  background-color:aquamarine;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+.item-details {
+  padding: 10px 0;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  font-size: 18px;
+  color: #8b8a7d;
+  margin-bottom: 5px;
+}
+
+.item-description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; /* Increase padding for better button appearance */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

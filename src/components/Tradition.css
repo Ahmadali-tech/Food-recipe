@@ -1,0 +1,61 @@
+
+
+.Tradition-class {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+.Tradition-class img {
+  width: 30px;
+}
+
+.Traditional-Food {
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f5e9b5;
+}
+
+.Traditional-Food img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Traditional-price {
+  font-size: 18px;
+  color: #8b8a7d;
+}
+
+.Traditional-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-right: 15%;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.Tradition-Description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}

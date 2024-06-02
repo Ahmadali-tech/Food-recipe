@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-class{
+  background: url(../src/components/landing\ page.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 1000vh;
+  z-index: 10; 
+
+}
+

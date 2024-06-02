@@ -1,0 +1,100 @@
+
+.footer {
+  background: linear-gradient(to right, #a19358, #e9cd5e);
+  color: #fff;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+
+.footer-section.about {
+  max-width: 250px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.logo-text span {
+  color: #ffc107;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: #fff;
+}
+
+.quick-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 15px;
+}
+
+.quick-links a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  color: #b29d5d;
+}
+
+.recipe-ingredients ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-ingredients li {
+  margin-bottom: 10px; 
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; 
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffca28;
+}
+
+.footer-bottom {
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-section {
+    flex: 1 1 100%;
+  }
+}

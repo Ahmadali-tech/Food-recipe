@@ -1,0 +1,74 @@
+.LOGINFORM {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LOGINFORM div {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+}
+.lable label{
+  color: white;
+  font-size: large;
+}
+
+.LOGINFORM h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.LOGINFORM label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.LOGINFORM input[type="email"],
+.LOGINFORM input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.LOGINFORM button {
+  width: 90%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.LOGINFORM button:hover {
+  background-color: #0056b3;
+}
+
+.LOGINFORM p {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+}
+
+.LOGINFORM p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.LOGINFORM p a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width:460px){
+  .LOGINFORM{
+    width: 100%;
+    position: relative;
+  }
+}

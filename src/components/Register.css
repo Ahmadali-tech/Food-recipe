@@ -1,0 +1,84 @@
+.Registration {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 30%;
+  box-shadow: 2px 10px 15px 5px #ccc;
+}
+.Registration label {
+  display: block;
+
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar input[type="search"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding-left:10%;
+}
+.Registration label{
+  color: white;
+  font-size: larger;
+}
+
+.searchbar button {
+  padding: 8px 12px;
+  background-color: #ffcc00; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.searchbar button:hover {
+  background-color:#af9f60; 
+}
+
+.Registration input[type="text"],
+.Registration input[type="email"],
+.Registration input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+.Registration button {
+  width: 96%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.Registration button:hover {
+  background-color: #0056b3;
+}
+
+.Registration p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Registration p a {
+  color: #007bff;
+}
+@media screen and (max-width:480px){
+  .Registration{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+}

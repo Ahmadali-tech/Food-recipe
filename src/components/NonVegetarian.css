@@ -1,0 +1,51 @@
+.Non-Vegeterian {
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px; 
+    display: grid; /* Change from flex to grid */
+    
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Use grid-template-columns for responsive layout */
+}
+
+.item {
+    width: 100%; /* Ensure all items take full width of their container */
+    padding: 15px;
+    border-radius: 10px; /* Increase border-radius for a smoother look */
+    text-align: center;
+    border:  2px solid black;
+    background-color: #f5e9b5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+.Non-vegetarian {
+    width: 100%;
+    border-radius: 10px; /* Ensure the same border radius as items */
+    margin-bottom: 20px; /* Increase margin bottom for better separation */
+}
+
+.Price {
+    font-size: 18px;
+    color: #8b8a7d;
+}
+
+.Non-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Increase padding for better button appearance */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
